@@ -1,2 +1,0 @@
-# Placeholder requirements for Python-based tooling.
-# The QuarterlyPilot Pro app is built with Node/React and has no Python dependencies by default.
