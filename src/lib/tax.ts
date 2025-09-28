@@ -154,9 +154,9 @@ export function buildICS(summary:string, dateISO:string, url?:string){
   const dt = dayjs(dateISO)
   const dtstamp = dt.format('YYYYMMDD[T]HHmmss')
   const d = dt.format('YYYYMMDD')
-  const uid = `${summary.replace(/\s+/g,'-').toLowerCase()}-${d}@quarterlypilot.pro`
+  const uid = `${summary.replace(/\s+/g,'-').toLowerCase()}-${d}@taxtrail.app`
   const lines = [
-    'BEGIN:VCALENDAR','VERSION:2.0','PRODID:-//QuarterlyPilot Pro//EN','CALSCALE:GREGORIAN',
+    'BEGIN:VCALENDAR','VERSION:2.0','PRODID:-//TaxTrail//EN','CALSCALE:GREGORIAN',
     'BEGIN:VEVENT',
     `UID:${uid}`,
     `DTSTAMP:${dtstamp}`,

@@ -1,6 +1,6 @@
 {
-  "name": "autoquarterly-pro-advanced",
-  "version": "0.2.0",
+  "name": "taxtrail",
+  "version": "1.0.0",
   "private": true,
   "type": "module",
   "scripts": {
@@ -9,15 +9,21 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@huggingface/inference": "^4.9.0",
+    "@types/react-router-dom": "^5.3.3",
     "dayjs": "^1.11.11",
+    "dotenv": "^17.2.2",
     "jspdf": "^2.5.1",
     "papaparse": "^5.4.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+    "react-router-dom": "^7.9.3",
+    "stripe": "^18.5.0",
     "zod": "^3.23.8"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4.1.13",
+    "@types/papaparse": "^5.3.16",
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
     "@vitejs/plugin-react": "^4.3.2",
@@ -26,5 +32,31 @@
     "tailwindcss": "^4.1.13",
     "typescript": "^5.4.5",
     "vite": "^5.4.7"
-  }
+  },
+  "description": "TaxTrail - Professional quarterly tax planning and business expense tracking for self-employed individuals. Features AI-powered expense categorization, business-type specific pages (E-commerce, Solo Consultant, Gig Worker), and comprehensive tax calculations for 2025.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oluwafemidiakhoa/TaxtTrail.git"
+  },
+  "keywords": [
+    "tax-planning",
+    "quarterly-taxes",
+    "self-employed",
+    "expense-tracking",
+    "ai-categorization",
+    "freelancer",
+    "gig-worker",
+    "ecommerce",
+    "consultant",
+    "react",
+    "typescript",
+    "vite"
+  ],
+  "author": "Oluwafemi Diakhoa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/oluwafemidiakhoa/TaxtTrail/issues"
+  },
+  "homepage": "https://github.com/oluwafemidiakhoa/TaxtTrail#readme"
 }
